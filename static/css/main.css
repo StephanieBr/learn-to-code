@@ -21,6 +21,7 @@ ul {
 
 .navbar-nav > li > a {
     color: #666 !important;
+    font-size: 1.2em !important;
 }
 
 .navbar-custom {
