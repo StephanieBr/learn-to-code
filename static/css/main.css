@@ -1,0 +1,146 @@
+body {
+	background-color: #FDF6E3;
+	font-family: "Lato", sans-serif;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+ul {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.navbar-nav > li > a {
+    color: #666 !important;
+}
+
+.navbar-custom {
+	padding: 2em;
+	background-color: #FDF6E3;
+	color: #666;
+	font-size: 0.9em;
+}
+
+.navbar-logo {
+	margin-top: -1em;
+}
+
+.navbar-custom li a {
+	font-size: 1.2em;
+}
+
+.title-text {
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+
+.title-text h1 {
+	line-height: 1.3em;
+}
+
+.post-nav-btn {
+	white-space: normal;
+    
+}
+	
+.btn-border {
+	border: solid 1px #BDBDBD;
+	border-radius: 10px;
+	padding: 3%;
+
+}
+
+.cta-btn .btn {
+	background-color: #FF6600;
+	color: white;
+	/* text-shadow: 0 0 .5px #000000; */
+	font-size: 1.25em;
+}
+
+ .cta-btn .btn:hover {
+	background-color: #F57C00;
+}
+
+.footer {
+	/* background-color: #FFCCBC !important; */
+}
+
+.footer-content li {
+	display: inline;
+}
+
+.jaaga-logo {
+    height: 70px;
+    background: url(/img/jaaga-logo.png) center center no-repeat;
+}
+
+.ispirit-logo {
+    height: 154px;
+    background: url(/img/ispirit-logo.png) center center no-repeat;
+}
+
+.color-blue {
+    color: #268BD2;
+}
+
+.color-orange {
+    color: #FF6600;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: #444;
+}
+
+h2 {
+	font-size:1.8em;
+	color: #268BD2;
+	line-height: 1.75em;
+	text-align: center;
+}
+
+a.button:active {
+    position: relative;
+    top: 2px;
+}
+
+.margin-md-top {
+	margin-top: 2em;
+}
+
+.margin-md-bot {
+	margin-bottom: 2em;
+}
+
+.padding-md-top {
+    padding-top: 2em;
+}
+
+.padding-md-bot {
+    padding-bottom: 2em;
+}
+
+.margin-lg-top {
+    margin-top: 4em;
+}
+
+.margin-lg-bot {
+    margin-bottom: 4em;
+}
+
+.logo {
+    float: left;
+}
+
+.social-media {
+    float: right;
+}
