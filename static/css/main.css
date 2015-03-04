@@ -2,14 +2,27 @@ body {
 	background-color: #FDF6E3;
 	font-family: "Lato", sans-serif;
 }
+.gradient{
+	
+	/* background: -webkit-linear-gradient(left, #453e68 ,#FDF6E3, #FE7600); For Safari 5.1 to 6.0
+	    background: -o-linear-gradient(right, #453e68, #FE7600); For Opera 11.1 to 12.0
+	    background: -moz-linear-gradient(right, #453e68, #FE7600); For Firefox 3.6 to 15 */
+   /*  background: radial-gradient(circle at top right, #005f3d, #03b3b0,#4f0d67, #b4a52e ); Standard syntax (must be last) */
+		background: linear-gradient(to right,#D84315, #FF9800, #fff,#fff,#fff,#fff,#fff,#fff ,#fff,#fff,#8BC34A, #558B2F) ;
+}
 
 a, a:hover, a:active {
-    text-decoration: none;
+    /* text-decoration: none; */
+
+}
+li a:hover{
+	color: tomato !important;
 }
 
 p {
     font-size: 1.2em;
-    color: #666;
+   color: #666;
+    /* color: #FDF6E3; */
     padding-top: 0.6em;
     padding-bottom: 0.6em;
 }
@@ -29,6 +42,7 @@ ul {
 	background-color: #FDF6E3;
 	color: #666;
 	font-size: 0.9em;
+	border: none !important;
 }
 
 .navbar-logo {
@@ -46,6 +60,7 @@ ul {
 
 .title-text h1 {
 	line-height: 1.3em;
+
 }
 
 .post-nav-btn {
@@ -115,11 +130,14 @@ a.button:active {
 }
 
 .margin-md-top {
-	margin-top: 2em;
+	margin-top: 3em;
 }
 
 .margin-md-bot {
 	margin-bottom: 2em;
+}
+.md-padding{
+	padding:.5em;
 }
 
 .padding-md-top {
@@ -131,7 +149,7 @@ a.button:active {
 }
 
 .margin-lg-top {
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 .margin-lg-bot {
@@ -145,3 +163,15 @@ a.button:active {
 .social-media {
     float: right;
 }
+
+@media screen and (max-width: 480px) {
+    .jaaga-logo{
+    	margin-top: .75em !important;
+    }
+
+    .social-media-icon{
+    	padding-left:35% ;
+    }
+}
+ 
+
